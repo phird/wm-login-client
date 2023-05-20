@@ -1,6 +1,6 @@
 # WmApp
 
-for server-side [Karma]((https://github.com/phird/wm-login-server)).
+for server-side `https://github.com/phird/wm-login-server`.
 
 ## Development server
 
