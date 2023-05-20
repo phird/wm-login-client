@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="main-div">
+        <mat-card fxFlex="25" fxLayoutAlign="stretch" fxLayout="column">
+            <mat-card-header>
+                <h3>wmLogin ! 🙋🏻‍♂️</h3>
+                <small>information :</small>
+            </mat-card-header>
+            <mat-card-content class="main-content" fxLayout="column">
+                <h4> -info -</h4>
+                {{ firstName }} {{ lastName }}
+                <span> username: {{ username }}</span>
+                <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+            </mat-card-content>
+
+            
+        </mat-card>
+    </div>
+</div>

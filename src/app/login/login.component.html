@@ -1,0 +1,26 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="25">
+        <mat-toolbar color="primary"> Example Login With JWT </mat-toolbar>
+        <div class="info-box">
+            ℹ eg. username : user , password : user 
+        </div>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form"
+            [formGroup]="formGroup" (ngSubmit)="loginProces()">
+            <mat-form-field>
+                <mat-label>Username</mat-label>
+                <input matInput formControlName="Username">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput type="password" formControlName="Password">
+            </mat-form-field>
+            <button mat-raised-button type="submit" color="primary"> Login
+            </button>
+            <div class="register-text">
+                <p> not register yet ? </p>
+                <a [routerLink]="['/registration']"> register </a>
+            </div>
+        </form>
+
+    </mat-card>
+</div>

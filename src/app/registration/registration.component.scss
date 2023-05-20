@@ -1,0 +1,25 @@
+.main-div {
+    padding: 0 px;
+    background-color: rgb(30, 30, 83);
+}
+
+.register-form {
+    padding: 12px;
+
+    .register-text {
+        margin-top: 10px;
+        font-size: 14px;
+        color: gray;
+    
+        p {
+          display: inline;
+        }
+    
+        a {
+          margin-left: 5px;
+          color: blue;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+}
