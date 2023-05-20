@@ -1,6 +1,6 @@
 # WmApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+for server-side [Karma]((https://github.com/phird/wm-login-server)).
 
 ## Development server
 
