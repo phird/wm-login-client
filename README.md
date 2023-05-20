@@ -2,7 +2,7 @@
 
 for server-side `https://github.com/phird/wm-login-server`. <br />
 ‼️ Attention ! <br />
-no. of port affect to back-end code if run in other port please review server-side " Program.cs " file 🙏🏻
+no. of port affect to back-end code if run in other port except :4200, please review server-side " Program.cs " file 🙏🏻
 
 ## Development server
 
